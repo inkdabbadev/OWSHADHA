@@ -83,15 +83,15 @@ export default function Contact() {
                 href={card.href}
                 target={card.href.startsWith('http') ? '_blank' : undefined}
                 rel="noreferrer"
-                className="group block border border-ink/[0.07] p-7 hover:border-wood/35 hover:-translate-y-1 hover:bg-ink/[0.03] transition-all duration-350"
+                className="group block border border-ink/[0.07] p-5 hover:border-wood/35 hover:-translate-y-1 hover:bg-ink/[0.03] transition-all duration-350"
               >
-                <div className="w-10 h-10 flex items-center justify-center border border-ink/10 text-wood/60 group-hover:border-wood/40 group-hover:text-wood mb-7 transition-all duration-300">
+                <div className="w-9 h-9 flex items-center justify-center border border-ink/10 text-wood/60 group-hover:border-wood/40 group-hover:text-wood mb-5 transition-all duration-300">
                   {card.icon}
                 </div>
-                <span className="font-sans text-[0.7rem] tracking-[0.26em] uppercase text-ink/50 block mb-2">{card.label}</span>
-                <p className="font-sans font-bold tracking-tight text-[1.15rem] text-ink/90 mb-1 leading-tight">{card.primary}</p>
-                <p className="font-sans font-light text-[0.85rem] text-ink/60 mb-7">{card.secondary}</p>
-                <div className="flex items-center gap-2 font-sans text-[0.75rem] tracking-[0.16em] uppercase text-wood/60 group-hover:text-wood transition-colors duration-200">
+                <span className="font-sans text-[0.65rem] tracking-[0.26em] uppercase text-ink/50 block mb-1.5">{card.label}</span>
+                <p className="font-sans font-bold tracking-tight text-[1.05rem] text-ink/90 mb-1 leading-tight">{card.primary}</p>
+                <p className="font-sans font-light text-[0.8rem] text-ink/60 mb-5">{card.secondary}</p>
+                <div className="flex items-center gap-2 font-sans text-[0.7rem] tracking-[0.16em] uppercase text-wood/60 group-hover:text-wood transition-colors duration-200">
                   {card.cta}
                   <svg width="10" height="8" viewBox="0 0 10 8" fill="none" className="group-hover:translate-x-1 transition-transform duration-200">
                     <path d="M1 4h8M6 1l3 3-3 3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
