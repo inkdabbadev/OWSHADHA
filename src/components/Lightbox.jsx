@@ -15,9 +15,11 @@ export default function Lightbox({ items, index, onClose, onChange }) {
     }
     document.addEventListener('keydown', h)
     document.body.style.overflow = 'hidden'
+    window.lenis?.stop()
     return () => {
       document.removeEventListener('keydown', h)
       document.body.style.overflow = ''
+      window.lenis?.start()
     }
   }, [onClose, prev, next])
 
