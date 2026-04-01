@@ -83,7 +83,7 @@ export default function Hero() {
         >
           <a
             href="#gallery"
-            className="group flex items-center gap-3 px-8 py-3.5 bg-wood text-void font-sans text-[0.7rem] tracking-[0.22em] uppercase hover:bg-wood-lt active:scale-[0.98] transition-all duration-200"
+            className="group flex items-center gap-3 px-8 py-3.5 bg-wood text-[#f9eee1] font-sans text-[0.7rem] tracking-[0.22em] uppercase hover:bg-wood-lt active:scale-[0.98] transition-all duration-200"
           >
             Explore Our Work
             <svg width="14" height="10" viewBox="0 0 14 10" fill="none"
