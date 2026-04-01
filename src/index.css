@@ -12,7 +12,7 @@
 
 @layer utilities {
   .shimmer-bg {
-    background: linear-gradient(118deg,#EAE4DC 0%,#DDD7CE 40%,#EAE4DC 55%,#E5E0D6 100%);
+    background: linear-gradient(118deg,#f1e4d3 0%,#e5d1b8 40%,#f1e4d3 55%,#e9dfd1 100%);
     background-size: 300% 300%;
     animation: shimmer 3s ease-in-out infinite;
   }
@@ -22,7 +22,7 @@
   }
   .scrollbar-hide::-webkit-scrollbar { display: none; }
   .text-gradient-wood {
-    background: linear-gradient(to bottom right, #1A1714, #8B5A2B, #A67C52);
+    background: linear-gradient(to bottom right, #3a220d, #553212, #7a4d2b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

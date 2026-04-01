@@ -25,8 +25,8 @@ export default function Header({ onEnquireClick }) {
         <div className="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between">
 
           {/* Logo */}
-          <a href="#" className="relative group flex items-center justify-center h-10 sm:h-12 w-[180px] sm:w-[240px] overflow-hidden">
-            <img src="/logo/OWSHADHA.png" alt="Owshadha Logo" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[400px] max-w-none" />
+          <a href="#" className="flex items-center">
+            <img src="/logo/logo-1.svg" alt="Owshadha Logo" className="h-8 sm:h-10 w-auto object-contain" />
           </a>
 
           {/* Desktop nav */}

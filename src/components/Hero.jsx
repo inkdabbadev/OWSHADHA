@@ -16,8 +16,8 @@ export default function Hero() {
       <div className="absolute inset-0 pointer-events-none opacity-40"
         style={{
           backgroundImage: `
-            linear-gradient(rgba(26,23,20,0.04) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(26,23,20,0.04) 1px, transparent 1px)`,
+            linear-gradient(rgba(85,50,18,0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(85,50,18,0.05) 1px, transparent 1px)`,
           backgroundSize: '80px 80px',
         }}
       />
