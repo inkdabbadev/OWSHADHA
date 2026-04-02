@@ -19,7 +19,7 @@ const CARDS = [
   {
     label: 'Call Us',
     primary: '+91 98419 41984',
-    href: 'tel:+919876543210',
+    href: 'tel:+91 98419 41984',
     cta: 'Call now',
     icon: (
       <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
